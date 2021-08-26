@@ -6,8 +6,11 @@
 *Manual Installation Steps*
 
 Step 1 - Enable the Windows Subsystem for Linux<br>
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+```postscript
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+``
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/2021-08-26_163947.png)
+
 
 Step 2 - Check requirements for running WSL 2<br>
 Step 3 - Enable Virtual Machine feature<br>
