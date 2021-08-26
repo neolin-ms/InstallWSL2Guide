@@ -8,7 +8,7 @@
 Step 1 - Enable the Windows Subsystem for Linux<br>
 ```postscript
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-``
+```
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/2021-08-26_163947.png)
 
 
