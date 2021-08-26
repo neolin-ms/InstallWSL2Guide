@@ -13,10 +13,9 @@ PS C:\> dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsyste
 ```
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/2021-08-26_163947.png)
 
-
-Step 2 - Check requirements for running WSL 2<br>
-Step 3 - Enable Virtual Machine feature<br>
-Step 4 - Download the Linux kernel update package
-Step 5 - Set WSL 2 as your default version
-Step 6 - Install your Linux distribution of choice
+**Step 2 - Check requirements for running WSL 2**<br>
+**Step 3 - Enable Virtual Machine feature**<br>
+**Step 4 - Download the Linux kernel update package**<br>
+**Step 5 - Set WSL 2 as your default version**<br>
+**Step 6 - Install your Linux distribution of choice**<br>
 
