@@ -1,9 +1,9 @@
 # InstallWSL2Guide
 
-**Reference**
+**Reference**<br>
 [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
 
-# Manual Installation Steps
+## Manual Installation Steps
 
 **Step 1 - Enable the Windows Subsystem for Linux**<br>
 
