@@ -5,9 +5,9 @@
 
 **Manual Installation Steps**
 
-Step 1 - Enable the Windows Subsystem for Linux<br>
+**Step 1** - Enable the Windows Subsystem for Linux<br>
 
-Open PowerShell as Administrator and run:<br>
+Open PowerShell as **Administrator** and run:<br>
 ```postscript
 PS C:\> dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
