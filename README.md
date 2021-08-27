@@ -81,6 +81,7 @@ PS C:/> wsl --set-default-version 2
 Only available in Windows Build 18362 or higher
 ```postscript
 PS C:/> wsl --set-default-version 2
+PS C:\> wsl --list --verbose
 ```
 
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165316.png)
