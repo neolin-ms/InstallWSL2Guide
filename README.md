@@ -14,7 +14,7 @@ Open PowerShell as **Administrator** and run:<br>
 PS C:\> dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_163947.png)
 
 **Step 2 - Check requirements for running WSL 2**<br>
 
@@ -25,7 +25,7 @@ To update to WSL 2, you must be running Windows 10.<br>
 
 To check your version and build number, select Windows logo key + R, type winver, select OK.<br>
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_164022.png)
 
 **Step 3 - Enable Virtual Machine feature**<br>
 
@@ -35,7 +35,7 @@ PS C:/> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /al
 ```
 **Important: Restart your machine to complete the WSL install and update to WSL 2.**
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_164124.png)
 
 **Step 4 - Download the Linux kernel update package**<br>
 
@@ -43,27 +43,27 @@ PS C:/> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /al
 
 4-2 Run the update package downloaded in the previous step. (Double-click to run - you will be prompted for elevated permissions, select ‘yes’ to approve this installation.)
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_164613.png)
 
 **Step 5 - Set WSL 2 as your default version**<br>
 
 Open PowerShell as Administrator and run this command to set WSL 2 as the default version when installing a new Linux distribution:<br>
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_164708.png)
 
 **Step 6 - Install your Linux distribution of choice**<br>
 
 6-1 Open the Microsoft Store and select your favorite Linux distribution.
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_164837.png)
 
 6-2 From the distribution's page, select "Get".
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165003.png)
 
 6-3 You will then need to create a user account and password for your new Linux distribution.
 
-![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165021.png)
 
 **ONGRATULATIONS! You've successfully installed and set up a Linux distribution that is completely integrated with your Windows operating system!**
 
