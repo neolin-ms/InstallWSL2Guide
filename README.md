@@ -64,13 +64,22 @@ PS C:/> wsl --set-default-version 2
 
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165003.png)
 
-6-3 Click "Launch" to run Linux distribution.
+6-3 Click "Launch" to run new Linux distribution.
 
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165021.png)
 
 6-4 You will then need to create a user account and password for your new Linux distribution.
 
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165215.png)
+
+6-5 You can check the WSL version assigned to each of the Linux distributions you have installed by opening the PowerShell command line and entering the command: 
+
+Only available in Windows Build 18362 or higher
+```postscript
+PS C:/> wsl --set-default-version 2
+```
+
+![Image](https://github.com/neolin-ms/InstallWSL2Guide/blob/main/pics/2021-08-26_165249.png)
 
 **ONGRATULATIONS! You've successfully installed and set up a Linux distribution that is completely integrated with your Windows operating system!**
 
