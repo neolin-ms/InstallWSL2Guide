@@ -1,7 +1,9 @@
 # InstallWSL2Guide
 
 **Reference**<br>
-[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+* [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+* [changes to updating the WSL2 Linux kernel](://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004)
+* [Windows Command Line Blog](https://aka.ms/cliblog)
 
 ## Manual Installation Steps
 
@@ -31,11 +33,15 @@ Open PowerShell as Administrator and run:<br>
 ```postscript
 PS C:/> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-**Restart your machine to complete the WSL install and update to WSL 2.**
+**Important: Restart your machine to complete the WSL install and update to WSL 2.**
 
 ![Image](https://github.com/neolin-ms/InstallWSL2Guide/pics/blob/main/2021-08-26_163947.png)
 
 **Step 4 - Download the Linux kernel update package**<br>
+
+4-1 Download the latest package: [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+4-2 Run the update package downloaded in the previous step. (Double-click to run - you will be prompted for elevated permissions, select ‘yes’ to approve this installation.)
 **Step 5 - Set WSL 2 as your default version**<br>
 **Step 6 - Install your Linux distribution of choice**<br>
 
