@@ -2,7 +2,7 @@
 
 **Reference**<br>
 * [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
-* [changes to updating the WSL2 Linux kernel](://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004)
+* [changes to updating the WSL2 Linux kernel](https://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004)
 * [Windows Command Line Blog](https://aka.ms/cliblog)
 
 ## Manual Installation Steps
